@@ -1,5 +1,31 @@
 /*CSS creado por: Violet789*/
 /*Importe de fuentes desde google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Nunito+Sans:wght@300&family=Prompt:wght@100;300&display=swap');
-
-/*Estilos divUno*/
+body{
+    background-color: #000000;
+}
+#imgUno{
+    position: relative;
+    top: 31rem;
+    left: 6rem;
+    transform: rotate(20deg);
+}
+#imgDos{
+    position: relative;
+    top:32.7rem;
+    left: -2rem;
+    transform: rotate(155deg);
+}
+/*Estilos de etiquetas dentro de divUno*/
+#pUno{
+    color: #ffffff;
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 16.9rem;
+    left: 1%;
+    right: 1%;
+}
